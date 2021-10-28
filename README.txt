@@ -5,7 +5,8 @@
 Optimization problem to find the fastest path between two given stops through the Boston T. 
 For the sake of convenience, the only branch of the green line that is included is the E branch (to HEATH). 
 The rest of the lines are included as shown in the image, and some bus routes are included as the ‘purple’ line.
-I left a pdf image of the routes in files as a visual representation of what I am working with in case anyone is curious.
+I left a pdf image of the routes in /files as a visual representation of what I am working with in case anyone is curious. 
+I've also left the .txt file for all the possible lines/routes I endedup using in /files as well.
 
 
 ===================
