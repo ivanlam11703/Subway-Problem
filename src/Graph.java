@@ -58,13 +58,9 @@ public class Graph
         }
 
         ArrayList<WeightedEdge> applicableEdges = edges;
-        if (restrictedColors.length != 0)
+        for (String color : restrictedColors)
         {
-            for (int i = 0; i < restrictedColors.length; i++)
-            {
-                String color = restrictedColors[i];
-                applicableEdges.removeIf(e -> (e.getColor().equals(color)));
-            }
+            applicableEdges.removeIf(e -> (e.getColor().equals(color)));
         }
 
         PriorityQueue<WeightedStop> minPriorityQueueByWeight = new PriorityQueue<>(stops.size(), new WeightedStopComparator());
