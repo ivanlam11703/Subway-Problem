@@ -6,7 +6,7 @@ Optimization problem to find the fastest path between two given stops through th
 For the sake of convenience, the only branch of the green line that is included is the E branch (to HEATH). 
 The rest of the lines are included as shown in the image, and some bus routes are included as the ‘purple’ line.
 I left a pdf image of the routes in /files as a visual representation of what I am working with in case anyone is curious. 
-I've also left the .txt file for all the possible lines/routes I endedup using in /files as well.
+I've also left the .txt file for all the possible lines/routes I ended up using in /files as well.
 
 
 ===================
@@ -39,7 +39,7 @@ I've also left the .txt file for all the possible lines/routes I endedup using i
                 considers different route options given that the user does
                 not want to take certain colored lines to reach their destination.
                 My implementation was also done iteratively - I will try to do it
-                recursively next time. Maybe I'll also trying implementing a
+                recursively next time. Maybe I will also trying implementing a
                 depth-first search(DFS) next time too.
                 
        
