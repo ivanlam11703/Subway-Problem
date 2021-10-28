@@ -23,8 +23,17 @@ I've also left the .txt file for all the possible lines/routes I endedup using i
 2. File I/O: using I/O to parse a novel file format.
                 I used readers to read in all the possible edges/lines along
                 with their associated weights and colors.
+
+3. Representing a weighted graph.
+		I needed to represent all the travel times, travel routes, and
+		stops as part of a weighted graph. Travel times were weight, 
+		the travel routes were WeightedEdges, and the stops were
+		vertices (WeightedStops in my code). My implementation for 
+		the weighted graph is under the assumption that the graph 
+		is undirected, but the code can be quickly altered to work 
+		if the graph happens to be directed.
                 
-3. Dijkstra's algorithm.
+4. Dijkstra's algorithm.
                 I implemented Dijkstra's algorithm which is a breadth-first
                 search(BFS) algorithm. My implenetation of the algorithm also
                 considers different route options given that the user does
